@@ -82,7 +82,6 @@ nav ul li a:hover{
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 .banner-link{
@@ -103,6 +102,10 @@ nav ul li a:hover{
     background-color: #fff;
     color: rgb(191, 132, 132);
     transition: 0.3s;
+}
+
+.subpages-banner{
+    display: none;
 }
 
 main{
@@ -525,9 +528,27 @@ footer{
     text-align: center;
 }
 
+/* Non Home Page banners */
+#subpages #banner{
+    width: 100%;
+    height: 350px;
+}
 
-/* animations */
-/* @keyframes slide{
-    from{right: -600px; opacity: 0;}
-    to{right: 0px; opacity: 1;}
-} */
+#subpages .banner-background{
+    display: none;
+}
+
+#subpages main{
+    min-height: 400px;
+}
+
+.subpages-banner{
+    display: block;
+    position: absolute;
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+    top: 250px;
+    left: 0;
+    text-align: center;
+    font-size: 30px;
+}
