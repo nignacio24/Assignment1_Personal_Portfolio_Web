@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
     res.render("pages/index");
 });
 
-router.get("/aboutUs", (req, res) => {
+router.get("/about_us", (req, res) => {
     res.render("pages/aboutus", {
         title: "About Us",
         details: [
@@ -40,7 +40,7 @@ router.get("/services", (req, res) => {
     });
 });
 
-router.get("/contactUs", (req, res) => {
+router.get("/contact_us", (req, res) => {
     res.render("pages/contactus", {
         title: "Contact Us",
         details: [

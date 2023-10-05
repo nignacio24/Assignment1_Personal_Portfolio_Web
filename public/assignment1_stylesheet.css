@@ -296,6 +296,13 @@ main ul li img{
     
 }
 
+#projects ul a{
+    text-decoration: none;
+    width: 290px;
+    height: 250px;
+    position: relative;
+}
+
 #projects ul li{
     list-style-type: none;
     display: inline-block;
@@ -312,24 +319,6 @@ main ul li img{
     transition: .5s;
     color: rgb(45, 45, 57);
     
-}
-
-#projects ul li:first-child{
-    position: relative;
-    animation-name: slide;
-    animation-duration: 2s;
-}
-
-#projects ul li:nth-child(2){
-    position: relative;
-    animation-name: slide;
-    animation-duration: 3s;
-}
-
-#projects ul li:last-child{
-    position: relative;
-    animation-name: slide;
-    animation-duration: 4s;
 }
 
 #projects ul li:hover{
