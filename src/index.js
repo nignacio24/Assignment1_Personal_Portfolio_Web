@@ -1,6 +1,12 @@
+// 
+//     Author: Nikko Martin Ignacio
+//     Student ID: 301294860
+//     Date: October 5, 2023
+//     Filename: src/index.js  
+// 
+
 const express = require("express");
 const app = express();
-const Joi =  require("joi");
 const router = express.Router();
 
 app.use(express.static('public'));

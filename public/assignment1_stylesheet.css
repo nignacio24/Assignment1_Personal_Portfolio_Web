@@ -1,3 +1,11 @@
+/*  
+    Author: Nikko Martin Ignacio
+    Student ID: 301294860
+    Date: October 5, 2023
+    Filename: assignment1_stylesheet.css 
+*/
+
+
 body{
     font-family: Verdana, sans-serif;
     margin: 0 !important;
@@ -917,7 +925,7 @@ input[type=email]:focus-visible{
 }
 
 #contact_us .address{
-    width: 400px;
+    width: 500px;
     height: 500px;
     display: inline-block;
     vertical-align: top;
