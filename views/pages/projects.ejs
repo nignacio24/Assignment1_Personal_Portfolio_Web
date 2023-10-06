@@ -16,7 +16,62 @@
         </div>
     </header>
     <main>
-        
+        <div>
+            <p class="header_details"><%= header_details %></p>
+        </div>
+        <ul class="project_lists">
+            <li>
+                <div class="project-image">
+                    <img src="project_blog.png" alt="blog project image">
+                </div>
+                <div class="project-description">
+                    <h4>Blog Post <span>Project</span></h4>
+                    <p><%= blog_project_details %></p>
+                    <a href="http://studentweb.cencol.ca/nignaci3/assignment2/" target="_blank">View Site</a>
+                </div>
+                    
+            </li>
+            <li>
+                <div class="project-description">
+                    <h4>Form <span>Project</span></h4>
+                    <p><%= form_project_details %></p>
+                    <a href="http://studentweb.cencol.ca/nignaci3/assignment4/" target="_blank">View Site</a>
+                </div>
+                <div class="project-image">
+                    <img src="project_form.png" alt="form project image">
+                </div>
+            </li>
+            <li>
+                <div class="project-image">
+                    <img src="project_realestate.jpg" alt="realestate project image">
+                </div>
+                <div class="project-description">
+                    <h4>Real Estate <span>Project</span></h4>
+                    <p><%= realestate_project_details %></p>
+                    <a href="http://studentweb.cencol.ca/nignaci3/individualproject/index.html" target="_blank">View Site</a>
+                </div>
+            </li>
+            <li>
+                <div class="project-description">
+                    <h4>Ecommerce <span>Project</span></h4>
+                    <p><%= ecommerce_project_details %></p>
+                    <a href="http://studentweb.cencol.ca/nignaci3/assignment3/" target="_blank">View Site</a>
+                </div>
+                <div class="project-image">
+                    <img src="project_ecommerce.jpg" alt="ecommerce project image">
+                </div>
+            </li>
+            <li>
+                <div class="project-image">
+                    <img src="project_game.png" alt="game project image">
+                </div>
+                <div class="project-description">
+                    <h4>Monster Catching Game <span>Project</span></h4>
+                    <p><%= game_project_details %></p>
+                    <a href="https://orange-tally-8.tiiny.site/?fbclid=IwAR2xioDOMRZzohuTG4lsHac9vnZDFDIWYYsOOLu4FzW1c_AKXnr4PKI8Arw" target="_blank">View Site</a>
+                </div>
+            </li>
+        </ul>
     </main>
     <footer>
         <%- include("../partials/footer"); %>

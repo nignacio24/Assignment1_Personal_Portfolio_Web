@@ -16,7 +16,23 @@
         </div>
     </header>
     <main>
-        
+        <div class="image">
+            <img src="aboutme1.jpg" alt="owner pic">
+        </div>
+        <div class="about_main">
+            <p><%= first_paragraph %></p>
+            <p><%= second_paragraph %></p>
+            <p><%= third_paragraph %></p>
+            <p><%= fourth_paragraph %></p>
+            <ul id="resume_buttons">
+                <li>
+                    <a href="nikko_martin_resume.pdf" target="_blank">View Resume</a>
+                </li>
+                <li>
+                    <a href="nikko_martin_resume.pdf" target="_blank" download="nikko_martin_resume.pdf">Download Resume</a>
+                </li>
+            </ul>
+        </div> 
     </main>
     <footer>
         <%- include("../partials/footer"); %>

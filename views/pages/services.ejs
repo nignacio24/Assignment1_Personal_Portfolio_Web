@@ -16,7 +16,56 @@
         </div>
     </header>
     <main>
-        
+        <div>
+            <p class="header_details"><%= header_details %></p>
+        </div>
+        <ul class="service-lists">
+            <li>
+                <img src="responsive-design.png" alt="Web design icon" class="icon">
+                <h6>Web <span>Design</span></h6>
+                <p><%= web_dev_details %></p>
+                <ul class="inside-lists">
+                    <li>
+                        <img src="project_blog.png" alt="blog project image">
+                    </li>
+                    <li>
+                        <img src="project_form.png" alt="form project image">
+                    </li>
+                    <li>
+                        <img src="project_realestate.jpg" alt="realestate project image">
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <img src="illustration.png" alt="Graphics design icon" class="icon">
+                <h6>Graphics <span>Design</span></h6>
+                <p><%= graphics_details %></p>
+                <ul class="inside-lists">
+                    <li>
+                        <img src="graphics_design1.png" alt="photo manipulation 1">
+                    </li>
+                    <li>
+                        <img src="graphics_design2.png" alt="photo manipulation 1">
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <img src="prototype.png" alt="Product design icon" class="icon">
+                <h6>Product <span>Design</span></h6>
+                <p><%= product_details %></p>
+                <ul class="inside-lists">
+                    <li>
+                        <img src="product_design1.png" alt="product design 1">
+                    </li>
+                    <li>
+                        <img src="product_design2.png" alt="product design 2">
+                    </li>
+                    <li>
+                        <img src="product_design3.png" alt="product design 3">
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </main>
     <footer>
         <%- include("../partials/footer"); %>

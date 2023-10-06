@@ -541,3 +541,195 @@ footer{
     text-align: center;
     font-size: 30px;
 }
+
+#subpages main{
+    margin: 20px auto;
+}
+
+#subpages main .image{
+    width: 265px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    border: 5px solid rgb(191, 132, 132);
+}
+
+#subpages main .image img{
+    width: 100%;
+    
+
+}
+
+#subpages main .about_main{
+    display: inline-block;
+    vertical-align: top;
+    width: 650px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#subpages main .about_main a{
+    color: rgb(191, 132, 132);
+    text-decoration: none;
+}
+
+#subpages main .about_main a:hover{
+    text-decoration: underline;
+}
+
+#subpages #resume_buttons{
+    margin: 35px 0;
+}
+
+#subpages #resume_buttons li{
+    margin: 0px !important;
+    vertical-align: top;
+    width: 191px;
+}
+
+#subpages #resume_buttons li::after{
+    display: none
+}
+
+#subpages #resume_buttons li a{
+    padding: 10px 20px;
+    background-color: rgb(45, 45, 57);
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(45, 45, 57);
+    transition: .5s;
+}
+
+#subpages #resume_buttons li a:hover{
+    text-decoration: none;
+    color: rgb(45, 45, 57);
+    background-color: #fff;
+    transition: .5s;
+
+}
+
+#subpages .header_details{
+    font-style: italic;
+    position: relative;
+}
+
+#subpages .header_details:before{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 400px;
+    left: 50%;
+    margin: 20px 0;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    border-bottom: 4px solid rgb(191, 132, 132);
+}
+
+#subpages main .project_lists{
+    margin-top: 90px;
+}
+
+#subpages main .project_lists li{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+#subpages main .project_lists li::after{
+    display: none;
+}
+
+#subpages main .project_lists li .project-image{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 50px 0 0;
+}
+
+#subpages main .project_lists li:nth-child(even){
+    text-align: right;
+}
+
+#subpages main .project_lists li:nth-child(even) .project-image{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 50px;
+}
+
+#subpages main .project_lists li .project-image img{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+}
+
+#subpages main .project_lists li .project-description{
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#subpages main .project_lists li .project-description h4{
+    font-size: 30px;
+    margin: 0px;
+}
+
+#subpages main .project_lists li .project-description a{
+    padding: 6px 16px;
+    background-color: rgb(45, 45, 57);
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(45, 45, 57);
+    transition: .5s;
+    text-decoration: none;
+}
+
+#subpages main .project_lists li .project-description a:hover{
+    text-decoration: none;
+    color: rgb(45, 45, 57);
+    background-color: #fff;
+    transition: .5s;
+}
+
+#subpages main .project_lists li .project-description h4 span{
+    display: block;
+    font-size: 39.5px;
+    color:rgb(191, 132, 132);
+}
+
+#subpages main .service-lists{
+    margin-top: 90px;
+}
+
+#subpages main .service-lists li{
+    display: block;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#subpages main .service-lists li::after{
+    display: none !important;
+}
+
+#subpages main .service-lists li .inside-lists li{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    margin: 20px 10px 0;
+    padding: 10px;
+    border: 5px solid rgb(191, 132, 132);
+    border-radius: 20px;
+}
+
+#subpages main .service-lists li .inside-lists li img{
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#subpages main h6{
+    margin-top: 0px;
+}
