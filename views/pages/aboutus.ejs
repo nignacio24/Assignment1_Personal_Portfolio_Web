@@ -1,0 +1,48 @@
+<!--
+    Author: Nikko Martin Ignacio
+    Student ID: 301294860
+    Date: October 5, 2023
+    Filename: aboutus.ejs  
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 - Web Development</title>
+    <link rel="stylesheet" href="assignment1_stylesheet.css">
+</head>
+<body id="subpages">
+    <header>
+        <%- include("../partials/head"); %>
+        <%- include("../partials/navigation"); %>
+        <%- include("../partials/banner"); %>
+        <div class="subpages-banner">
+            <h3> <%= title %> </h3>
+        </div>
+    </header>
+    <main>
+        <div class="image">
+            <img src="aboutme1.jpg" alt="owner pic">
+        </div>
+        <div class="about_main">
+            <p><%= first_paragraph %></p>
+            <p><%= second_paragraph %></p>
+            <p><%= third_paragraph %></p>
+            <p><%= fourth_paragraph %></p>
+            <ul id="resume_buttons">
+                <li>
+                    <a href="nikko_martin_resume.pdf" target="_blank">View Resume</a>
+                </li>
+                <li>
+                    <a href="nikko_martin_resume.pdf" target="_blank" download="nikko_martin_resume.pdf">Download Resume</a>
+                </li>
+            </ul>
+        </div> 
+    </main>
+    <footer>
+        <%- include("../partials/footer"); %>
+    </footer>
+</body>
+</html>

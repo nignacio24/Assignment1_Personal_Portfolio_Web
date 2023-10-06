@@ -1,0 +1,101 @@
+<!--
+    Author: Nikko Martin Ignacio
+    Student ID: 301294860
+    Date: October 5, 2023
+    Filename: contactus.ejs  
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 - Web Development</title>
+    <link rel="stylesheet" href="assignment1_stylesheet.css">
+</head>
+<body id="subpages">
+    <header>
+        <%- include("../partials/head"); %>
+        <%- include("../partials/navigation"); %>
+        <%- include("../partials/banner"); %>
+        <div class="subpages-banner">
+            <h3> <%= title %> </h3>
+        </div>
+    </header>
+    <main>
+        <div>
+            <p class="header_details"><%= header_details %></p>
+        </div>
+        <form class="form" action="mailto:contactus@nmistudios.com" method="POST" enctype="text/plain">
+            <span class="doubleinput">
+                <input type="text" id="firstname" name="firstname" required>
+                <label class="labelname">First Name</label>
+            </span>
+            <span class="doubleinput">
+                <input type="text" id="lastname" name="lastname" required>
+                <label class="labelname">Last Name</label>
+            </span>
+            <span class="doubleinput">
+                <input type="email" id="email" name="email" required>
+                <label class="labelname">Email</label>
+            </span>
+            <span class="doubleinput">
+                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="homephone" name="homephone" placeholder="123-123-1234" required>
+                <label class="labelname">Phone Number</label>
+            </span>
+
+            <textarea placeholder="Enter your inquires or concerns here..."></textarea>
+            <a href="/"><input type="submit" value="Submit" class="submit"></a>
+        </form>
+    </main>
+    <div id="contact_us">
+        <div class="contact">
+            <img src="communicate.png" alt="location icon" class="icon">
+            <h3>Contact Us</h3>
+            <ul>
+                <li>
+                    <p>Email: <a href="mailto:contactus@nmistudios.com" class="email">contactus@nmistudios.com</a></p>
+                </li>
+                <li>
+                    <h5>Social Media Platforms</h5>
+                    <ul id="socmed_icons">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="facebook icon"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="twitter icon"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" alt="instagram icon"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.snapchat.com/" target="_blank"><img src="snapchat.png" alt="snapchat icon"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/en/" target="_blank"><img src="tiktok.png" alt="tiktok icon"></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="address">
+            <img src="location.png" alt="location icon" class="icon">
+            <h3>Find <span>Us</span></h3>
+            <ul>
+                <li>
+                    <h5>Scarborough Branch</h5>
+                    <p>1770 Markham Rd. <span>Scarborough, ON M1B 980</span></p>
+                </li>
+                <li>
+                    <h5>North York Branch</h5>
+                    <p>3102 Dufferin St. #10, <span>Toronto, ON M5A 2T0</span></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <%- include("../partials/footer"); %>
+    </footer>
+</body>
+</html>

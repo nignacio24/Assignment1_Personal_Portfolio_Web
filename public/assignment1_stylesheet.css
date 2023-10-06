@@ -1,3 +1,11 @@
+/*  
+    Author: Nikko Martin Ignacio
+    Student ID: 301294860
+    Date: October 5, 2023
+    Filename: assignment1_stylesheet.css 
+*/
+
+
 body{
     font-family: Verdana, sans-serif;
     margin: 0 !important;
@@ -82,7 +90,6 @@ nav ul li a:hover{
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 .banner-link{
@@ -103,4 +110,843 @@ nav ul li a:hover{
     background-color: #fff;
     color: rgb(191, 132, 132);
     transition: 0.3s;
+}
+
+.subpages-banner{
+    display: none;
+}
+
+main{
+    text-align: center;
+    color: #000;
+    width: 1080px;
+    position: relative;
+    padding: 25px 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+main h3{
+    margin: 0px auto;
+    padding-bottom: 13px;
+    position: relative;
+    border-bottom: 3px solid rgb(191, 132, 132);
+    width: 100%;
+    font-size: 25px;
+}
+
+main h6{
+    font-size: 35px;
+    margin: 20px 0 40px;
+}
+
+main h6 span{
+    color: rgb(191, 132, 132);
+    display: block;
+}
+
+main ul{
+    padding: 0;
+}
+
+main ul li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 0 20px 0;
+    position: relative;
+}
+
+main ul li:first-child::after{
+    content: "";
+    border-right: 3px solid rgb(191, 132, 132);
+    display: block;
+    position: absolute;
+    height: 150px;
+    right: -21px;
+    margin: 20px 0;
+    top: 100px;
+}
+
+main ul li:last-child::after{
+    content: "";
+    border-right: 3px solid rgb(191, 132, 132);
+    display: block;
+    position: absolute;
+    height: 150px;
+    left: -21px;
+    margin: 20px 0;
+    top: 100px;
+}
+
+main ul li img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+#section2{
+    min-height: 330px;
+    padding: 40px 0 30px;
+}
+
+.mission_statement_img{
+    width: 1020px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+#mission-statement{
+    text-align: center;
+    color: #000;
+    width: 670px;
+    position: relative;
+    padding: 25px 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#mission-statement h3{
+    margin: 0px auto;
+    padding-bottom: 13px;
+    position: relative;
+    border-bottom: 3px solid rgb(191, 132, 132);
+    width: 240px;
+}
+
+#section3{
+    min-height: 300px;
+    margin: 20px auto;
+    width: 1080px;
+
+}
+
+#section3 .left{
+    display: inline-block;
+    vertical-align: top;
+    width: 374px;
+    text-align: center;
+}
+
+#section3 .left img{
+    width: 250px;
+    padding: 10px;
+    border: 5px solid rgb(191, 132, 132);
+}
+
+#section3 .right{
+    display: inline-block;
+    vertical-align: top;
+    width: 700px;
+}
+
+#section3 .right h3{
+    font-size: 30px;
+}
+
+#section3 .right h3 span{
+    display: block;
+    font-size: 55px;
+    color: rgb(191, 132, 132);
+    margin-left: 50px;
+}
+
+#section4{
+    min-height: 540px;
+    width: 100%;
+    background-color: rgb(191, 132, 132);
+    position: relative;
+    z-index: 0;
+}
+
+#section4 .random_image_design{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+#section4 #projects{
+    z-index: 1;
+    text-align: right;
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#projects h3{
+    font-size: 60px;
+    color: #fff;
+    margin-right: 0;
+    position: relative;
+}
+
+#projects h3::after{
+    content: "";
+    border: 3px solid #fff;
+    display: block;
+    position: absolute;
+    height: 0px;
+    right: 0;
+    margin: 20px 0;
+    top: 75px;
+    width: 215px;
+    border-radius: 4px;
+}
+
+#projects ul{
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    top: 23px;
+    
+}
+
+#projects ul a{
+    text-decoration: none;
+    width: 290px;
+    height: 250px;
+    position: relative;
+}
+
+#projects ul li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 290px;
+    height: 250px;
+    margin: 0 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: .5s;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .5s;
+    color: rgb(45, 45, 57);
+    
+}
+
+#projects ul li:hover{
+    background-color: rgb(45, 45, 57);
+    transition: .5s;
+    color: #fff;
+}
+
+#projects div{
+    display: block;
+}
+
+#projects ul li img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#projects p{
+    text-align: center;
+    padding: 13px;
+    margin: 0;
+}
+
+#section5{
+    min-height: 545px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: 0;
+}
+
+#section5 .random_image_design{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+#section5 .icon{
+    width: 75px;
+}
+
+#section5 #contact_us_home{
+    z-index: 1;
+    text-align: right;
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+#section5 .contact_home{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: right;
+    top: 120px;
+
+}
+
+#section5 .address_home{
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 66px;
+    top: 68px;
+    text-align: center;
+}
+
+#section5 ul{
+    padding: 0;
+}
+
+#section5 .address_home ul li{
+    list-style-type: none;
+    display: block;
+    margin-bottom: 50px;
+}
+
+#section5 .address_home img{
+    position: relative;
+    right: -4px;
+}
+
+#section5 h3{
+    font-size: 30px;
+    margin: 10px 0 20px;
+    
+}
+
+#section5 h5{
+    font-size: 18px;
+    margin: 10px 0 30px;
+    position: relative;
+}
+
+#section5 h5::after{
+    content: "";
+    border: 1px solid rgb(45, 45, 57);
+    display: block;
+    position: absolute;
+    height: 0px;
+    right: 174px;
+    margin: 20px 0;
+    top: 10px;
+    width: 50px;
+}
+
+#section5 .contact_home h5::after{
+    right: 85px;
+
+}
+
+#section5 .address_home p{
+    margin-top: 30px;
+}
+
+#section5 .address_home p span{
+    display: block;
+    margin-top: 15px;
+}
+
+#section5 .contact_home ul li{
+    list-style-type: none;
+    display: block;
+    margin-bottom: 40px;
+}
+
+#section5 .contact_home ul li::after{
+    content: "";
+    border-right: 3px solid rgb(191, 132, 132);
+    display: block;
+    position: absolute;
+    height: 265px;
+    right: -90px;
+    margin: 20px 0;
+    top: 40px;
+}
+
+#socmed_icons img{
+    width: 50px;
+}
+
+#socmed_icons li{
+    display: inline-block !important;
+    vertical-align: top;
+}
+
+#section5 ul li .email{
+    text-decoration: none;
+    color: rgb(45, 45, 57);
+}
+
+#section5 ul li .email:hover{
+    border-bottom: 1px solid rgb(45, 45, 57);
+}
+
+footer{
+    background-color: rgb(45, 45, 57);
+    margin: 0;
+    padding: 1px 0;
+    color: #fff;
+}
+
+.footer-nav{
+    background-color: rgb(191, 132, 132);
+    text-align: center;
+    font-weight: 400 !important;
+}
+
+.footer-nav ul{
+    text-align: center;
+}
+
+.footer-nav ul li:last-child{
+    margin-right: 0;
+}
+
+.footer-nav ul li a{
+    color: rgb(45, 45, 57);
+}
+
+.footer-nav ul li a:hover{
+    text-decoration: underline;
+    background-color: none !important;
+    transition: .5s ease;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+}
+
+/* Non Home Page banners */
+#subpages #banner{
+    width: 100%;
+    height: 350px;
+}
+
+#subpages .banner-background{
+    display: none;
+}
+
+#subpages main{
+    min-height: 400px;
+}
+
+.subpages-banner{
+    display: block;
+    position: absolute;
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+    top: 250px;
+    left: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+#subpages main{
+    margin: 20px auto;
+}
+
+#subpages main .image{
+    width: 265px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    border: 5px solid rgb(191, 132, 132);
+}
+
+#subpages main .image img{
+    width: 100%;
+    
+
+}
+
+#subpages main .about_main{
+    display: inline-block;
+    vertical-align: top;
+    width: 650px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#subpages main .about_main a{
+    color: rgb(191, 132, 132);
+    text-decoration: none;
+}
+
+#subpages main .about_main a:hover{
+    text-decoration: underline;
+}
+
+#subpages #resume_buttons{
+    margin: 35px 0;
+}
+
+#subpages #resume_buttons li{
+    margin: 0px !important;
+    vertical-align: top;
+    width: 191px;
+}
+
+#subpages #resume_buttons li::after{
+    display: none
+}
+
+#subpages #resume_buttons li a{
+    padding: 10px 20px;
+    background-color: rgb(45, 45, 57);
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid rgb(45, 45, 57);
+    transition: .5s;
+}
+
+#subpages #resume_buttons li a:hover{
+    text-decoration: none;
+    color: rgb(45, 45, 57);
+    background-color: #fff;
+    transition: .5s;
+
+}
+
+#subpages .header_details{
+    font-style: italic;
+    position: relative;
+}
+
+#subpages .header_details:before{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 400px;
+    left: 50%;
+    margin: 20px 0;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    border-bottom: 4px solid rgb(191, 132, 132);
+}
+
+#subpages main .project_lists{
+    margin-top: 90px;
+}
+
+#subpages main .project_lists li{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+#subpages main .project_lists li::after{
+    display: none;
+}
+
+#subpages main .project_lists li .project-image{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 50px 0 0;
+}
+
+#subpages main .project_lists li:nth-child(even){
+    text-align: right;
+}
+
+#subpages main .project_lists li:nth-child(even) .project-image{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 50px;
+}
+
+#subpages main .project_lists li .project-image img{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+}
+
+#subpages main .project_lists li .project-description{
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#subpages main .project_lists li .project-description h4{
+    font-size: 30px;
+    margin: 0px;
+}
+
+#subpages main .project_lists li .project-description a{
+    padding: 6px 16px;
+    background-color: rgb(45, 45, 57);
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(45, 45, 57);
+    transition: .5s;
+    text-decoration: none;
+}
+
+#subpages main .project_lists li .project-description a:hover{
+    text-decoration: none;
+    color: rgb(45, 45, 57);
+    background-color: #fff;
+    transition: .5s;
+}
+
+#subpages main .project_lists li .project-description h4 span{
+    display: block;
+    font-size: 39.5px;
+    color:rgb(191, 132, 132);
+}
+
+#subpages main .service-lists{
+    margin-top: 90px;
+}
+
+#subpages main .service-lists li{
+    display: block;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#subpages main .service-lists li::after{
+    display: none !important;
+}
+
+#subpages main .service-lists li .inside-lists li{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    margin: 20px 10px 0;
+    padding: 10px;
+    border: 5px solid rgb(191, 132, 132);
+    border-radius: 20px;
+}
+
+#subpages main .service-lists li .inside-lists li img{
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#subpages main h6{
+    margin-top: 0px;
+}
+
+#subpages form{
+    width: 600px;
+    margin: 50px auto 30px;
+}
+
+.form .doubleinput {
+    width: 297px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.form .tripleinput{
+    width: 196px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.form input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=tel]:focus-visible{
+    outline: none;
+    border: 1px solid #808080;
+}
+
+input[type=text]:focus-visible{
+    outline: none;
+    border: 1px solid #808080;
+}
+
+input[type=number]:focus-visible{
+    outline: none;
+    border: 1px solid #808080;
+}
+
+#firstname{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#lastname{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email]:focus-visible{
+    outline: none;
+    border: 1px solid #808080;
+}
+
+.submit{
+    margin: 20px 0 0;
+    background-color: rgb(191, 132, 132);
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid rgb(191, 132, 132);
+    text-align: left;
+    cursor: pointer;
+    color: #fff;
+}
+
+.submit:hover{
+    background-color: #fff;
+    transition: 0.3s;
+    color: rgb(191, 132, 132);
+}
+
+.form label{
+    display: block;
+    margin: 5px 0 0 7px;
+}
+
+.form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+#contact_us{
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+#contact_us .icon{
+    width: 75px;
+}
+
+#contact_us .contact{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: center;
+}
+
+#contact_us h3{
+    font-size: 30px;
+    margin: 10px 0 20px;
+}
+
+#contact_us h5{
+    font-size: 18px;
+    margin: 10px 0 30px;
+    position: relative;
+}
+
+#contact_us .contact ul{
+    padding: 0px;
+}
+
+#contact_us .contact ul li{
+    list-style-type: none;
+    display: block;
+    margin-bottom: 40px;
+}
+
+#contact_us .contact ul li .email{
+    text-decoration: none;
+    color: rgb(45, 45, 57);
+}
+
+#contact_us .contact ul li .email:hover{
+    text-decoration: underline;
+}
+
+
+#contact_us .contact ul li::after{
+    content: "";
+    border-right: 3px solid rgb(191, 132, 132);
+    display: block;
+    position: absolute;
+    height: 265px;
+    right: 0px;
+    margin: 20px 0;
+    top: 40px;
+}
+
+#contact_us .address{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#contact_us .address ul{
+    padding: 0;
+}
+
+#contact_us .address ul li{
+    list-style-type: none;
+    display: block;
+    margin-bottom: 50px;
+}
+
+#contact_us .address p{
+    margin-top: 30px;
+}
+
+#contact_us .address p span{
+    margin-top: 15px;
+    display: block;
 }

@@ -1,3 +1,10 @@
+<!--
+    Author: Nikko Martin Ignacio
+    Student ID: 301294860
+    Date: October 5, 2023
+    Filename: index.ejs  
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +14,29 @@
     <link rel="stylesheet" href="assignment1_stylesheet.css">
 </head>
 <body>
+    <!-- I section each partials so that it will be easier to build and find -->
     <header>
         <%- include("../partials/head"); %>
         <%- include("../partials/navigation"); %>
         <%- include("../partials/banner"); %>
     </header>
-    
+    <main>
+        <%- include("../partials/main"); %>
+    </main>
+    <section id="section2">
+        <%- include("../partials/mission_statement"); %>
+    </section>
+    <section id="section3">
+        <%- include("../partials/about_the_owner"); %>
+    </section>
+    <section id="section4">
+        <%- include("../partials/projects"); %>
+    </section>
+    <section id="section5">
+        <%- include("../partials/contact_us"); %>
+    </section>
+    <footer>
+        <%- include("../partials/footer"); %>
+    </footer>
 </body>
 </html>
