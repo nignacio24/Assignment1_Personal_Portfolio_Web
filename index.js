@@ -48,9 +48,7 @@ router.get("/services", (req, res) => {
 router.get("/contact_us", (req, res) => {
     res.render("pages/contactus", {
         title: "Contact Us",
-        details: [
-            
-        ],
+        header_details: "Get in touch with us—we're here to listen, assist, and connect. Your questions, feedback, and inquiries are important to us. Feel free to reach out using this form or check our contact details below!",
     });
 });
 

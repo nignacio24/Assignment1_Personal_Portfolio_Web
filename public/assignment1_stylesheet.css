@@ -733,3 +733,212 @@ footer{
 #subpages main h6{
     margin-top: 0px;
 }
+
+#subpages form{
+    width: 600px;
+    margin: 50px auto 30px;
+}
+
+.form .doubleinput {
+    width: 297px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.form .tripleinput{
+    width: 196px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.form input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=tel]:focus-visible{
+    outline: none;
+    border: 1px solid #808080;
+}
+
+input[type=text]:focus-visible{
+    outline: none;
+    border: 1px solid #808080;
+}
+
+input[type=number]:focus-visible{
+    outline: none;
+    border: 1px solid #808080;
+}
+
+#firstname{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#lastname{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email]:focus-visible{
+    outline: none;
+    border: 1px solid #808080;
+}
+
+.submit{
+    margin: 20px 0 0;
+    background-color: rgb(191, 132, 132);
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 1px solid rgb(191, 132, 132);
+    text-align: left;
+    cursor: pointer;
+    color: #fff;
+}
+
+.submit:hover{
+    background-color: #fff;
+    transition: 0.3s;
+    color: rgb(191, 132, 132);
+}
+
+.form label{
+    display: block;
+    margin: 5px 0 0 7px;
+}
+
+.form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+#contact_us{
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+#contact_us .icon{
+    width: 75px;
+}
+
+#contact_us .contact{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    text-align: center;
+}
+
+#contact_us h3{
+    font-size: 30px;
+    margin: 10px 0 20px;
+}
+
+#contact_us h5{
+    font-size: 18px;
+    margin: 10px 0 30px;
+    position: relative;
+}
+
+#contact_us .contact ul{
+    padding: 0px;
+}
+
+#contact_us .contact ul li{
+    list-style-type: none;
+    display: block;
+    margin-bottom: 40px;
+}
+
+#contact_us .contact ul li .email{
+    text-decoration: none;
+    color: rgb(45, 45, 57);
+}
+
+#contact_us .contact ul li .email:hover{
+    text-decoration: underline;
+}
+
+
+#contact_us .contact ul li::after{
+    content: "";
+    border-right: 3px solid rgb(191, 132, 132);
+    display: block;
+    position: absolute;
+    height: 265px;
+    right: 0px;
+    margin: 20px 0;
+    top: 40px;
+}
+
+#contact_us .address{
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#contact_us .address ul{
+    padding: 0;
+}
+
+#contact_us .address ul li{
+    list-style-type: none;
+    display: block;
+    margin-bottom: 50px;
+}
+
+#contact_us .address p{
+    margin-top: 30px;
+}
+
+#contact_us .address p span{
+    margin-top: 15px;
+    display: block;
+}
